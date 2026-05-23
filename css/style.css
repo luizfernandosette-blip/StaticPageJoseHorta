@@ -693,6 +693,46 @@ button { cursor: pointer; font-family: inherit; }
   border: 1px solid rgba(255,255,255,.2);
 }
 
+.ozone__ozoxx {
+  margin-top: 40px;
+  padding-top: 32px;
+  border-top: 1px solid rgba(255,255,255,.2);
+}
+
+.ozone__ozoxx h3 {
+  color: var(--color-white);
+  font-size: 1.3rem;
+  margin: 10px 0 18px;
+  line-height: 1.4;
+}
+
+.ozone__ozoxx h4 {
+  color: var(--color-accent-light);
+  font-size: .9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+
+.ozone__ozoxx p {
+  color: rgba(255,255,255,.85);
+  font-size: .95rem;
+  margin-bottom: 12px;
+  line-height: 1.7;
+}
+
+.ozone__ozoxx-video-wrap {
+  margin-top: 20px;
+}
+
+.ozone__ozoxx-video {
+  width: 100%;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-xl);
+  border: 3px solid rgba(255,255,255,.15);
+  display: block;
+}
+
 .ozone__image { position: relative; }
 
 .ozone__image-frame {
