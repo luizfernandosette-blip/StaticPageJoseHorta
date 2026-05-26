@@ -6,9 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
   <!-- SEO Primary -->
-  <title>Clínica José Horta | Medicina Alternativa em Sabará - MG</title>
+  <title>Clínica José Horta | Medicina Integrativa em Sabará - MG</title>
   <meta name="description" content="Clínica José Horta Barbosa em Sabará-MG. Especialista em Ozonioterapia, Acupuntura, Medicina Chinesa, Homeopatia, Bioressonância Magnética e muito mais. Agende sua consulta." />
-  <meta name="keywords" content="medicina alternativa sabará, josé horta, jose horta sabara, alívio para dores coluna, alívio para dores, medicina chinesa sabara, ozônio terapia, ozonioterapia sabará, acupuntura, acupuntura sabara, medicina chinesa, tratamento com ondas de alta frequencia, iteracare, florais quânticos, terapia neural, homeopatia sabará, ortomolecular, bioressonância magnética, correção de coluna, terapia holística sabará, terapeuta sabará" />
+  <meta name="keywords" content="medicina integrativa sabará, josé horta, jose horta sabara, alívio para dores coluna, alívio para dores, medicina chinesa sabara, ozônio terapia, ozonioterapia sabará, acupuntura, acupuntura sabara, medicina chinesa, tratamento com ondas de alta frequencia, iteracare, florais quânticos, terapia neural, homeopatia sabará, ortomolecular, bioressonância magnética, correção de coluna, terapia holística sabará, terapeuta sabará" />
   <meta name="author" content="José Horta Barbosa" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://clinicajosehorta.com.br/" />
@@ -16,7 +16,7 @@
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://clinicajosehorta.com.br/" />
-  <meta property="og:title" content="Clínica José Horta | Medicina Alternativa em Sabará - MG" />
+  <meta property="og:title" content="Clínica José Horta | Medicina Integrativa em Sabará - MG" />
   <meta property="og:description" content="Tratamentos naturais e integrais para seu bem-estar. Ozonioterapia, Acupuntura, Homeopatia, Bioressonância Magnética e mais. Sabará - MG." />
   <meta property="og:locale" content="pt_BR" />
 
@@ -26,7 +26,7 @@
     "@context": "https://schema.org",
     "@type": "MedicalClinic",
     "name": "Clínica José Horta Barbosa",
-    "description": "Clínica de medicina alternativa e integrativa em Sabará - MG, especializada em ozonioterapia, acupuntura, medicina chinesa, homeopatia e mais.",
+    "description": "Clínica de medicina integrativa em Sabará - MG, especializada em ozonioterapia, acupuntura, medicina chinesa, homeopatia e mais.",
     "url": "https://clinicajosehorta.com.br",
     "telephone": "+553198444-5256",
     "address": {
@@ -311,6 +311,16 @@
           </a> -->
 
           <div class="ozone__ozoxx">
+            <figure class="novacsik__wrap">
+              <img
+                src="imgs/novacsik.jpg"
+                alt="Novacsik – clique para ampliar"
+                class="novacsik__thumb"
+                onclick="openLightbox(this)"
+                title="Clique para ampliar"
+              />
+              <figcaption class="novacsik__caption"><i class="fas fa-search-plus"></i> Clique na imagem para ampliar</figcaption>
+            </figure>
             <span class="section__tag section__tag--light">Tecnologia de Ponta</span>
             <h3>Equipamento para Tratamento Domiciliar <strong>OZOXX AR</strong></h3>
             <h4>Do que se trata?</h4>
@@ -579,7 +589,7 @@
           <i class="fas fa-leaf"></i>
           <span>Clínica <strong>José Horta</strong></span>
         </div>
-        <p>Medicina alternativa e integrativa para uma vida mais saudável, equilibrada e plena em Sabará - MG.</p>
+        <p>Medicina integrativa para uma vida mais saudável, equilibrada e plena em Sabará - MG.</p>
         <div class="footer__guarantee">
           <i class="fas fa-shield-alt"></i>
           <span>Garantia de Satisfação no Tratamento</span>
@@ -633,6 +643,12 @@
   <a href="#inicio" class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
     <i class="fas fa-chevron-up"></i>
   </a>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Imagem ampliada" onclick="closeLightbox()">
+    <button class="lightbox__close" onclick="closeLightbox()" aria-label="Fechar">&times;</button>
+    <img class="lightbox__img" id="lightboxImg" src="" alt="" onclick="event.stopPropagation()" />
+  </div>
 
   <script src="js/main.js"></script>
 </body>
